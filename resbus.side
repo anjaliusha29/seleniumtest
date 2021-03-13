@@ -1,0 +1,183 @@
+{
+  "id": "ba7499c7-6b05-478a-9f96-10396f89b436",
+  "version": "2.0",
+  "name": "resbus",
+  "url": "https://www.redbus.in",
+  "tests": [{
+    "id": "f26e735d-3568-4891-b2d1-bdd88d1d5c79",
+    "name": "testOne",
+    "commands": [{
+      "id": "60fb1408-d508-4b3c-89ae-a3ab5fe2fddb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "765e5395-e8c4-45ce-b1e7-91016bb70794",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x703",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "838943a6-3f7b-4186-916e-048785a6ece4",
+      "comment": "",
+      "command": "click",
+      "target": "id=src",
+      "targets": [
+        ["id=src", "id"],
+        ["css=#src", "css:finder"],
+        ["xpath=//input[@id='src']", "xpath:attributes"],
+        ["xpath=//section[@id='search']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "185a82b6-9be1-403d-a1ae-7ebf691d2375",
+      "comment": "",
+      "command": "type",
+      "target": "id=src",
+      "targets": [
+        ["id=src", "id"],
+        ["css=#src", "css:finder"],
+        ["xpath=//input[@id='src']", "xpath:attributes"],
+        ["xpath=//section[@id='search']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ben"
+    }, {
+      "id": "847639f1-72e0-4570-8403-f3b620919cc2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected",
+      "targets": [
+        ["css=.selected", "css:finder"],
+        ["xpath=//section[@id='search']/div/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Bengaluru')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "240bdc5b-f11b-416b-b2c3-f34db4184503",
+      "comment": "",
+      "command": "click",
+      "target": "id=dest",
+      "targets": [
+        ["id=dest", "id"],
+        ["css=#dest", "css:finder"],
+        ["xpath=//input[@id='dest']", "xpath:attributes"],
+        ["xpath=//section[@id='search']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38e72f8f-18e4-4063-ae52-52b92cf7cbaa",
+      "comment": "",
+      "command": "type",
+      "target": "id=dest",
+      "targets": [
+        ["id=dest", "id"],
+        ["css=#dest", "css:finder"],
+        ["xpath=//input[@id='dest']", "xpath:attributes"],
+        ["xpath=//section[@id='search']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "C"
+    }, {
+      "id": "2685584a-8a6a-4084-9726-40fc9073cb4b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected",
+      "targets": [
+        ["css=.selected", "css:finder"],
+        ["xpath=//section[@id='search']/div/div[2]/div/ul/li", "xpath:idRelative"],
+        ["xpath=//section/div/div[2]/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Chennai (All Locations)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90833b09-d483-451b-87bd-a3e56c2df70b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-calendar_icon-new",
+      "targets": [
+        ["css=.icon-calendar_icon-new", "css:finder"],
+        ["xpath=//section[@id='search']/div/div[3]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8031d561-7b0e-49c2-ad39-546394e45b68",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_btn",
+      "targets": [
+        ["id=search_btn", "id"],
+        ["css=#search_btn", "css:finder"],
+        ["xpath=//button[@id='search_btn']", "xpath:attributes"],
+        ["xpath=//section[@id='search']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search Buses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48d5c9f6-e8a2-44fb-87c4-4a36a8082577",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\31 6698322 .button",
+      "targets": [
+        ["css=#\\31 6698322 .button", "css:finder"],
+        ["xpath=//li[@id='16698322']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//li/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55b15f56-c3f1-42e1-8d0f-459b310f610f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pointer",
+      "targets": [
+        ["css=.pointer", "css:finder"],
+        ["xpath=//div[@id='rt_16698322']/div/div/div/div[3]/div[2]/div[2]/canvas", "xpath:idRelative"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22f71e90-5395-4e38-adc6-c0ae059dc4e0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,497)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47219907-7031-440e-8d98-4c12ccb88d12",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pointer",
+      "targets": [
+        ["css=.pointer", "css:finder"],
+        ["xpath=//div[@id='rt_16698322']/div/div/div/div[3]/div[2]/div[2]/canvas", "xpath:idRelative"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6a97c54-fbe7-4df9-8a38-c2edc46d0381",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7d87c544-b243-45d5-8f5f-7f4c799467b9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f26e735d-3568-4891-b2d1-bdd88d1d5c79"]
+  }],
+  "urls": ["https://www.redbus.in/"],
+  "plugins": []
+}
